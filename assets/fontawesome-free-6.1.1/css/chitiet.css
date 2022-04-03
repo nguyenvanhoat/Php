@@ -1,0 +1,49 @@
+.chitiet {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.chitiet_tren {
+    display: flex;
+    height: 450px;
+}
+
+.pic {
+    width: 50%;
+}
+
+.pic img {
+    height: 80%;
+    width: 90%;
+}
+
+.btn-cl {
+    width: 100px;
+    height: 30px;
+    border: hidden;
+    color: #000000;
+    background-color: #0eb92b;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.btn-cl:hover {
+    background-color: #02f72b;
+}
+
+.color {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.color span {
+    font-size: 23px;
+    color: red;
+    font-weight: bold;
+}
+
+.price {
+    width: 50%;
+}
