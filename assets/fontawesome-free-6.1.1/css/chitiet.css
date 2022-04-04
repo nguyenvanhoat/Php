@@ -26,7 +26,6 @@
     background-color: #0eb92b;
     font-weight: bold;
     font-size: 17px;
-    border-radius: 5px;
 }
 
 .btn-cl:hover {
@@ -46,4 +45,96 @@
 
 .price {
     width: 50%;
+    padding: 50px;
+}
+
+.pri_name {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.gia {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.tamtinh {
+    padding: 5px;
+    margin: 10px 15%;
+    border: 1px solid #5e0202;
+    width: 250px;
+    text-align: center;
+    color: #5e0202;
+    font-weight: bold;
+}
+
+.tinhtien {
+    width: 500px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px;
+    border-spacing: 10px;
+}
+
+.tinhtien span {
+    color: #c70000;
+}
+
+#khuvuc {
+    height: 30px;
+}
+
+#mua {
+    height: 30px;
+    width: 150px;
+    margin: 0 23%;
+    background-color: #e78402;
+    border: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#mua:hover {
+    background-color: #804902;
+}
+
+.thongso {
+    margin: 50px;
+}
+
+caption {
+    font-size: 25px;
+    font-weight: bold;
+    color: #b10606;
+    margin: 10px;
+}
+
+.thongso table {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 15px;
+    border-collapse: separate;
+    table-layout: fixed;
+    width: 80%;
+    border-spacing: 0 5px;
+    /* this is the ultimate fix */
+}
+
+.thongso table tr {
+    border: 1px solid gray;
+}
+
+.thongso table td {
+    border-width: 3px 0;
+    width: 50%;
+    border-color: #00a700;
+    border-style: solid;
+    background-color: #aae0ff;
+    color: #1b0000;
+    padding: 5px 15px;
+}
+
+.pic:hover img {
+    transform: scale(1.2);
 }
