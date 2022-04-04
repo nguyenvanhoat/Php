@@ -241,13 +241,13 @@ header {
 footer {
     margin-top: 50px;
     width: 100%;
-    height: 300px;
-    background-color: #8b49d8;
+    height: 200px;
+    background-color: #949494;
 }
 
 .main {
     display: flex;
-    height: 250px;
+    height: 150px;
 }
 
 .hotline {
@@ -257,17 +257,20 @@ footer {
 }
 
 .hotline h3 {
+    font-size: 20px;
     text-align: center;
 }
 
 .hotline p {
+    font-size: 19px;
     text-align: center;
 }
 
 .sdt {
-    margin: 10px 30px;
+    margin: 10px 20px;
     color: red;
-    font-weight: 700;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .main img {
